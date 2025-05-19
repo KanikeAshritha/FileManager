@@ -5,6 +5,7 @@ def create(filename,content=""):
         with open(filename, 'x') as file: 
             file.write(content)
         print(f"File '{filename}' created.")
+        print("Successful")
  
     except Exception:
         print("File already exists")
