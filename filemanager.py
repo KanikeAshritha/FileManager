@@ -60,3 +60,6 @@ while flag:
 
     if args[0] == 'exit':
         flag = False
+
+
+print("hii")
